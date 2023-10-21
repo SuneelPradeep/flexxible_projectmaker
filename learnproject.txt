@@ -1,0 +1,14 @@
+here in layout.tsx we defined the children : React.ReactNode which gives us the type for the children as we are using Typescript
+and using main is good practice is its our main content
+
+
+using nav semantic tag of html is good as its nav and gives navbar and we are using the navbar in className which redirects to globals.css
+<ul is unordered list and we can use it here to hide for the xl: flex hidden means hidden for xtralarge screens
+
+
+g is schema generator and config is return in grafbase config 
+
+in grafbase sample is g.model('User',{
+    here name ,email like  : g.string().optional() or .required()
+})
+g.relation sets the User model to Project model and list() to tell its a list of projects  and search() means its searches through the categories if given the 
