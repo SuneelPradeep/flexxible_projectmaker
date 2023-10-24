@@ -12,3 +12,10 @@ in grafbase sample is g.model('User',{
     here name ,email like  : g.string().optional() or .required()
 })
 g.relation sets the User model to Project model and list() to tell its a list of projects  and search() means its searches through the categories if given the 
+IN pathfinder grafbase  we have it creates those search and other funcitionalites for us
+
+authOptions in session.ts has type NextAuthOptions
+
+while giving google clientid in .env in session.ts  we can give in the end ! which means it may be empty for typescript to notice
+we are giving async to navbar makes it server side rendering as the whole page is server side rendering without using usestate or useEffect something like that
+
